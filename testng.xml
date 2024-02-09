@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/home/nashtech/IdeaProjects/Scientific_Calculator" thread-count="3" parallel="true" >
+        <classes>
+            <class name="test.scientificCalc.TestScientificCalc" >
+                <methods>
+                    <include name="testAddition"/>
+                    <include name="testSubtraction"/>
+                    <include name="testMultiply"/>
+                    <include name="testDivide"/>
+                    <include name="testSquareRoot"/>
+                    <include name="testPower"/>
+                    <include name="testSinFunction"/>
+                    <include name="testCosFunction"/>
+                    <include name="testTanFunction"/>
+                    <include name="testInvalidAddition"/>
+                    <include name="testInvalidDivision"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,12 @@
+arg1,operation,arg2,expectedResult,groups
+4,addition,3,7,basicOperations
+5,subtraction,4,1,basicOperations
+4,multiply,3,12,basicOperations
+10,division,2,5,basicOperations
+16,squareRoot,,4,advanceOperations
+3,power,2,9,advanceOperations
+30,sin,,0.5,advanceOperations
+60,cos,,0.5,advanceOperations
+45,tan,,1,advanceOperations
+7.4,invalidAddition,"t",NumberFormatException,basicOperations
+5,invalidDivision,0,ArithmeticException,basicOperations

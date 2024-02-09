@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="/home/nashtech/IdeaProjects/Scientific_Calculator(failed)">
+    <classes>
+      <class name="test.scientificCalc.TestScientificCalc">
+        <methods>
+          <include name="testSubtraction" invocation-numbers="2"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.scientificCalc.TestScientificCalc -->
+    </classes>
+  </test> <!-- /home/nashtech/IdeaProjects/Scientific_Calculator(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
